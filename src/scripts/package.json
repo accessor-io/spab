@@ -1,0 +1,13 @@
+{
+  "name": "ens-content-scraper",
+  "version": "1.0.0",
+  "description": "Script to fetch content from ENS forum URLs",
+  "main": "fetch-urls.js",
+  "scripts": {
+    "start": "node fetch-urls.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+} 
